@@ -1,4 +1,4 @@
-# A Hybrid Compact Neural Architecture for Visual Place Recognition
+# A Compact Neural Architecture for Visual Place Recognition
 
 ![](readme/hybrid.png)
 
@@ -19,7 +19,7 @@ The dataset needed to run this code can be downloaded from
 
 We provide a demo on a subset of the Nordland dataset.
 
-After downloading the dataset from here [here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), extract it into the `dataset/` folder and run:
+After downloading the dataset from [here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), extract it into the `dataset/` folder and run:
 
 	python main.py
 
