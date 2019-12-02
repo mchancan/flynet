@@ -181,8 +181,8 @@ y2 = eval_model(model, test_loader2)
 
 # Plot the resutls
 
-plt.figure(figsize=(15,3))
-num_samples = 10
+plt.figure(figsize=(15,6))
+num_samples = 5
 samples_per_class = 3
 tol = 11
 
