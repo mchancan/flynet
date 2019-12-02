@@ -11,7 +11,7 @@ State-of-the-art algorithms for visual place recognition can be broadly split in
 ## Datasets
 
 The dataset needed to run this code can be downloaded from
-[here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), which is a small subset of the Nordland dataset. This code can easily adapted to run across other, much larger datasets.
+[here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), which is a small subset of the Nordland dataset. However, this code can be easily adapted to run across other much larger datasets.
 
 ## Use FlyNet
 
