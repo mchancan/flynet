@@ -1,6 +1,6 @@
 # A Compact Neural Architecture for Visual Place Recognition
 
-![](readme/hybrid.png)
+![](readme/flynet_cann.png)
 
 In this release, we provide an open source implementation of the FlyNet supervised learning experiments
 in [A Hybrid Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840.pdf),
