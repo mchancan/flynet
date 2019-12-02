@@ -22,6 +22,11 @@ After downloading the dataset from [here](https://drive.google.com/open?id=1xrHK
 	python main.py
 
 
+## Sample results
+
+![](results/demo_flynet_nordland.png)
+
+
 ## Requirements
 
 This code was tested on [PyTorch](https://pytorch.org/) v1.0 and Python 3.6.
