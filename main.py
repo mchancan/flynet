@@ -204,5 +204,5 @@ for cls in range(num_samples):
             plt.title(f'{y2[idx]}', color='blue' if abs(idx-y2[idx])<tol else 'red')
         plt.axis('off')
 plt.tight_layout()
-plt.savefig('eval_flynet.jpg', dpi = 400)
+plt.savefig('results/demo_flynet_nordland.jpg', dpi = 400)
 
