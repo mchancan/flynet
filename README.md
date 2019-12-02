@@ -15,51 +15,19 @@ State-of-the-art algorithms for visual place recognition can be broadly split in
 The dataset needed to run this code can be downloaded from
 [here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), which is a small subset of the Nordland dataset. This code can easily adapted to run across other, much larger datasets.
 
+## Use FlyNet
 
-The files contained in the repository are the following:
+We provide a demo on a subset of the Nordland dataset.
 
-*   `train.py` is where the training and logging loop happen; The file comes
-    with the flags defined in Table 1 of the paper. In order to run this file
-    you will need to specify where the dataset is stored and where you want to
-    save the results. The results are saved in PDF format and they contains the
-    ratemaps and the spatial autocorrelagram order by grid score. The units are
-    ordered from higher to lower grid score. Only the last evaluation is saved.
-    Please note that given random seeds results can vary between runs.
+After downloading the dataset from here [here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), extract it into the `dataset/` folder and run:
 
-*   `data_reader.py` read the TFRecord and returns a ready to use batch, which
-    is already shuffled.
+	python main.py
 
-*   `model.py` contains the grid-cells network
 
-*   `scores.py` contains all the function for calculating the grid scores and
-    doing the plotting.
+## Requirements
 
-*   `ensembles.py` contains the classes to generate the targets for training of
-    the grid-cell networks.
+This code was tested on [PyTorch](https://pytorch.org/) v1.0 and Python 3.6.
 
-## Train
-
-The implementation requires an installation of
-[TensorFlow](https://www.tensorflow.org/) version 1.12, and
-[Sonnet](https://github.com/deepmind/sonnet) version 1.27.
-
-```shell
-$ virtualenv env
-$ source env/bin/activate
-$ pip install --upgrade numpy==1.13.3
-$ pip install --upgrade tensorflow==1.12.0-rc0
-$ pip install --upgrade dm-sonnet==1.27
-$ pip install --upgrade scipy==1.0.0
-$ pip install --upgrade matplotlib==1.5.2
-$ pip install --upgrade tensorflow-probability==0.5.0
-$ pip install --upgrade wrapt==1.9.0
-```
-
-An example training script can be executed from a python interpreter:
-
-```shell
-$ python train.py --task_root='path/to/datasets/root/folder' --saver_results_directory='path/to/results/folder'
-```
 
 ## License
 
@@ -81,5 +49,3 @@ If you find this project useful for your research, please use the following BibT
 	eprint = {1910.06840},
     	primaryClass = {cs.CV}
 }
-
-
