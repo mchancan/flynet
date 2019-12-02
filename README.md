@@ -24,7 +24,7 @@ After downloading the dataset from [here](https://drive.google.com/open?id=1xrHK
 
 ## Sample results
 
-![](results/demo_flynet_nordland.png)
+![](results/demo_flynet_nordland.jpg)
 
 
 ## Requirements
