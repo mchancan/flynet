@@ -2,7 +2,7 @@
 
 ![](readme/flynet_cann.png)
 
-In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840.pdf), as submitted to RA-L with ICRA 2020 option (https://arxiv.org/abs/1910.06840).
+In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840.pdf), currently under review at RA-L + ICRA 2020 (https://arxiv.org/abs/1910.06840).
 
 ## Abstract
 
