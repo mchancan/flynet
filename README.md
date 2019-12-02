@@ -38,14 +38,13 @@ FlyNet itself is released under the MIT License (refer to the LICENSE file for d
 
 If you find this project useful for your research, please use the following BibTeX entry.
 
-    @article{
-	FlyNetMC19,
-	author = {Chanc\'an, Marvin and Hernandez-Nunez, Luis and Narendra, Ajay and Barron, Andrew B. and Milford, Michael},
-	title = {A Compact Neural Architecture for Visual Place Recognition},
-	volume = {abs/1910.06840},
-	year = {2019},
-	url = {https://arxiv.org/abs/1910.06840},
-	archivePrefix = {arXiv},
-	eprint = {1910.06840},
-    	primaryClass = {cs.CV}
+	@article{
+		FlyNetMC19,
+		author = {Chanc\'an, Marvin and Hernandez-Nunez, Luis and Narendra, Ajay and Barron, Andrew B. and Milford, Michael},
+		title = {A Compact Neural Architecture for Visual Place Recognition},
+		volume = {abs/1910.06840},
+		year = {2019},
+		url = {https://arxiv.org/abs/1910.06840},
+		archivePrefix = {arXiv},
+		eprint = {1910.06840}
 	}
