@@ -1,12 +1,12 @@
-# A Compact Neural Architecture for Visual Place Recognition
+# A Hybrid Compact Neural Architecture for Visual Place Recognition
 
 ![](readme/flynet_cann.png)
 
-In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840.pdf), currently under review at RA-L + ICRA 2020 (https://arxiv.org/abs/1910.06840).
+In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Hybrid Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840.pdf), accepted for publication in the IEEE Robotics and Automation Letters (RA-L) journal (https://arxiv.org/abs/1910.06840).
 
 ## Abstract
 
-State-of-the-art algorithms for visual place recognition can be broadly split into two categories: computationally expensive deep-learning/image retrieval based techniques with minimal biological plausibility, and computationally cheap, biologically inspired models that yield poor performance in real-world environments. In this paper we present a new compact and high-performing system that bridges this divide for the first time. Our approach comprises two key components: FlyNet, a compact, sparse two-layer neural network inspired by fruit fly brain architectures, and a one-dimensional continuous attractor neural network (CANN). Our FlyNet+CANN network combines the compact pattern recognition capabilities of the FlyNet model with the powerful temporal filtering capabilities of an equally compact CANN, replicating entirely in a neural network implementation the functionality that yields high performance in algorithmic localization approaches like SeqSLAM. We evaluate our approach and compare it to three state-of-the-art methods on two benchmark real-world datasets with small viewpoint changes and extreme appearance variations including different times of day (afternoon to night) where it achieves an AUC performance of 87%, compared to 60% for Multi-Process Fusion, 46% for LoST-X and 1% for SeqSLAM, while being 6.5, 310, and 1.5 times faster respectively.
+State-of-the-art algorithms for visual place recognition, and related visual navigation systems, can be broadly split into two categories: computer-science-oriented models including deep learning or image retrieval based techniques with minimal biological plausibility, and neuroscience-oriented dynamical networks that model temporal properties found in neural cells underlying spatial navigation in the brain. In this paper, we propose a new compact and high-performing place recognition hybrid model that bridges this divide for the first time. Our approach comprises two key components that incorporate neural models of these two categories: (1) FlyNet, a compact, sparse two-layer neural network inspired by brain architectures of fruit flies, Drosophila melanogaster, and (2) a one-dimensional continuous attractor neural network (CANN). The resulting FlyNet+CANN network combines the compact pattern recognition capabilities of our FlyNet model with the powerful temporal filtering capabilities of an equally compact CANN, replicating entirely in a hybrid neural implementation the functionality that yields high performance in algorithmic localization approaches like SeqSLAM. We evaluate our approach, and compare it to three state-of-the-art place recognition methods, on two benchmark real-world datasets with small viewpoint variations and extreme environmental changes; including day/night cycles where it achieves an AUC performance of 87% compared to 60% for Multi-Process Fusion, 46% for LoST-X and 1% for SeqSLAM, while being 6.5, 310, and 1.5 times faster respectively.
 
 ## Datasets
 
@@ -44,7 +44,7 @@ If you find this project useful for your research, please use the following BibT
 	@article{
 		FlyNetMC19,
 		author = {Chanc\'an, Marvin and Hernandez-Nunez, Luis and Narendra, Ajay and Barron, Andrew B. and Milford, Michael},
-		title = {A Compact Neural Architecture for Visual Place Recognition},
+		title = {A Hybrid Compact Neural Architecture for Visual Place Recognition},
 		volume = {abs/1910.06840},
 		year = {2019},
 		url = {https://arxiv.org/abs/1910.06840},
