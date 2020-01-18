@@ -2,7 +2,7 @@
 
 ![](readme/flynet_cann.png)
 
-In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Hybrid Compact Neural Architecture for Visual Place Recognition](https://arxiv.org/pdf/1910.06840v2.pdf), accepted for publication in the IEEE Robotics and Automation Letters (RA-L) journal (https://arxiv.org/abs/1910.06840).
+In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [A Hybrid Compact Neural Architecture for Visual Place Recognition](https://doi.org/10.1109/LRA.2020.2967324), accepted for publication in the IEEE Robotics and Automation Letters (RA-L) journal. Preprint version available at https://arxiv.org/abs/1910.06840.
 
 ## Abstract
 
@@ -41,13 +41,16 @@ FlyNet itself is released under the MIT License (refer to the LICENSE file for d
 
 If you find this project useful for your research, please use the following BibTeX entry.
 
-	@article{
-		FlyNetMC19,
-		author = {Chanc\'an, Marvin and Hernandez-Nunez, Luis and Narendra, Ajay and Barron, Andrew B. and Milford, Michael},
+	@ARTICLE{MCFlyNet2020,
+		author = {M. {Chanc\'an}, L. {Hernandez-Nunez}, A. {Narendra}, A. B. {Barron}, and M. J. {Milford}},
+		journal = {IEEE Robotics and Automation Letters},
 		title = {A Hybrid Compact Neural Architecture for Visual Place Recognition},
-		volume = {abs/1910.06840},
-		year = {2019},
-		url = {https://arxiv.org/abs/1910.06840},
-		archivePrefix = {arXiv},
-		eprint = {1910.06840}
+		year = {2020},
+		volume = {},
+		number = {},
+		pages = {1-8},
+		keywords = {Biomimetics;Localization;Visual-Based Navigation},
+		doi = {10.1109/LRA.2020.2967324},
+		ISSN = {2377-3774},
+		month = {},
 	}
