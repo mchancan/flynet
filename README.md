@@ -11,27 +11,23 @@ State-of-the-art algorithms for visual place recognition, and related visual nav
 The dataset needed to run this code can be downloaded from
 [here](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), which is a small subset of the Nordland dataset. However, this code can easily be adapted to run across other much larger datasets.
 
+## Dependencies
+
+This code was tested on [PyTorch](https://pytorch.org/) v1.0 and Python 3.6.
+
 ## Use FlyNet
 
 We provide a demo of FlyNet on the Nordland dataset. After downloading the [dataset](https://drive.google.com/open?id=1xrHKrHYgSqrMk9-XeC1qIe8UYDmOsgfd), extract it into the `dataset/` folder and run:
 
 	python main.py
 
-
 ## Sample results
 
 ![](results/demo_flynet_nordland.jpg)
 
-
-## Requirements
-
-This code was tested on [PyTorch](https://pytorch.org/) v1.0 and Python 3.6.
-
-
 ## License
 
 FlyNet itself is released under the MIT License (refer to the LICENSE file for details).
-
 
 ## Citation
 
