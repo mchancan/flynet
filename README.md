@@ -39,7 +39,7 @@ FlyNet itself is released under the MIT License (refer to the LICENSE file for d
 
 If you find this project useful for your research, please use the following BibTeX entry.
 
-	@ARTICLE{MCFlyNet2020,
+	@ARTICLE{FlyNet2020,
 		author = {M. {Chanc\'an}, L. {Hernandez-Nunez}, A. {Narendra}, A. B. {Barron}, and M. J. {Milford}},
 		journal = {IEEE Robotics and Automation Letters},
 		title = {A Hybrid Compact Neural Architecture for Visual Place Recognition},
