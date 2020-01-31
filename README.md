@@ -42,7 +42,7 @@ If you find this project useful for your research, please use the following BibT
 		year={2020},
 		volume={5},
 		number={2},
-		pages={993-1000},
+		pages={993--1000},
 		keywords={Biomimetics;localization;visual-based navigation},
 		doi={10.1109/LRA.2020.2967324},
 		ISSN={2377-3774},
