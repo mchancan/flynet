@@ -25,7 +25,8 @@ We provide a demo of FlyNet on the Nordland dataset. After downloading the [data
 
 ## License
 
-FlyNet itself is released under the MIT License (refer to the LICENSE file for details).
+FlyNet itself is released under the MIT License (refer to the LICENSE file for details) for academic purposes. For commercial usage, please contact us.
+
 
 ## Citation
 
