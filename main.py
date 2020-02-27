@@ -1,3 +1,15 @@
+################################################################################
+#
+# Copyright (c) 2020
+# Author:
+#  Marvin Chancán (mchancanl@uni.pe)
+#
+# This work inder the MIT License for academic purposes
+# (refer to the LICENSE file for details). For commercial
+# usage, please contact us via mchancanl@uni.pe
+#
+###############################################################################
+
 from __future__ import print_function, division
 
 import cv2
