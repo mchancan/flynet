@@ -2,7 +2,7 @@
 
 In this release, we provide an open source implementation of the FlyNet supervised learning experiments in [**A Hybrid Compact Neural Architecture for Visual Place Recognition**](https://doi.org/10.1109/LRA.2020.2967324), published in the IEEE Robotics and Automation Letters (RA-L) journal (DOI [10.1109/LRA.2020.2967324](https://doi.org/10.1109/LRA.2020.2967324)). Preprint version available at https://arxiv.org/abs/1910.06840.
 
-Project page: https://mchancan.github.io/projects/
+Project page: https://mchancan.github.io/projects/FlyNet
 
 ## Dataset
 
