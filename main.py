@@ -1,10 +1,15 @@
 ################################################################################
-#
-# Copyright (c) 2020
+# This file is part of the paper:
+#  "A Hybrid Compact Neural Architecture for Visual Place Recognition," 
+#  in IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 993-1000,
+#  April 2020, doi: 10.1109/LRA.2020.2967324.
+#  Project page: https://mchancan.github.io/projects/FlyNet
+# 
+# Copyright (c) 2020, Marvin Chancán
 # Author:
 #  Marvin Chancán (mchancanl@uni.pe)
 #
-# This work inder the MIT License for academic purposes
+# This code is under the MIT License for academic purposes
 # (refer to the LICENSE file for details). For commercial
 # usage, please contact us via mchancanl@uni.pe
 #
@@ -20,8 +25,6 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-
-#from models import fna
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
