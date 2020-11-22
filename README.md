@@ -6,7 +6,7 @@ Project page: https://mchancan.github.io/projects/FlyNet
 
 ## Update about the CANN implementation!
 
-A quick `CANN implementation demo` for filtering the output data of FlyNet has been released [here](https://github.com/mchancan/flynet/tree/master/cann_demo). Although it is not the exact implementation used in the paper, I hope this may be useful to get an overall understanding on how it works or adapt this baseline on your own application.
+Given the increasing interest on the CANN part of the code, a quick `CANN implementation demo` for filtering the output data of FlyNet has been released [here](https://github.com/mchancan/flynet/tree/master/cann_demo). Although it is not the exact implementation used in the paper, I hope this may be useful to get an overall understanding on how it works or adapt this baseline on your own application.
 
 ## Dataset
 
