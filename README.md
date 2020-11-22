@@ -4,6 +4,10 @@ In this release, we provide an open source implementation of the FlyNet supervis
 
 Project page: https://mchancan.github.io/projects/FlyNet
 
+## Update about the CANN implementation!
+
+A quick `CANN implementation demo` for filtering the output data of FlyNet has been released [here](https://github.com/mchancan/flynet/tree/master/cann_demo). Although it is not the exact implementation used in the paper, I hope this may be useful to get an overall understanding on how it works or adapt this baseline on your own application.
+
 ## Dataset
 
 The dataset used to run this code can be downloaded from
