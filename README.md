@@ -4,9 +4,12 @@ In this release, we provide an open source implementation of the FlyNet supervis
 
 Project page: https://mchancan.github.io/projects/FlyNet
 
-## Update about the CANN implementation!
 
-Given the increasing interest on the CANN part of the code, a quick `demo` for filtering the output data of FlyNet has been released [here](https://github.com/mchancan/flynet/tree/master/cann_demo). Although it is not the exact/fine tuned implementation used in the paper, I hope this may be useful to get an overall understanding on how it works or to adapt it for your own application.
+## News!
+
+- **(Mar 1, 2021)** New (relevant) research on [Sequential Place Learning](https://mchancan.github.io/spl) that address the main limitations of CANNs is now available!
+- **(Nov 22, 2020)** A `demo` of the CANN component has been released [here](https://github.com/mchancan/flynet/tree/master/cann_demo).
+
 
 ## Dataset
 
@@ -30,6 +33,7 @@ We provide a demo of FlyNet on the Nordland dataset. After downloading the [data
 ## License
 
 FlyNet itself is released under the MIT License (refer to the LICENSE file for details) for academic purposes. For commercial usage, please contact us via `mchancanl@uni.pe`
+
 
 
 ## Citation
